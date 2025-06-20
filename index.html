@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./style.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
 
   <body>
-    <header>
+    <!-- <header>
          <div class="container-fluid border border-2 d-none d-lg-block p-2 fixed-top bg-white">
         <div class="largeBar">
         <div class="smallitems"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" /></div>
@@ -40,16 +41,44 @@
         </div>
 
     </div>
-    </header>
+    </header> -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+  <div class="container-fluid ">
+    <a class="navbar-brand " href="#"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" /></a>
 
+    <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#wcusection">Why Choose Us?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#emsection">Explore Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#dpsection">Delivery & Payment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="#fusection">Follow Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
 
        
     <div class="banner-section-bg-container d-flex justify-content-center flex-column">
         <div class="text-center">
             <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
             <p class="banner-caption mb-4">Eat Smart & Healthy</p>
-            <button class="custom-button btn-animate"><a href="#emsection" class = "a1">View Menu</a></button>
-            <button class="custom-outline-button btn-animate">Order Now</button>
+          <a href="#emsection" class = "a1">  <button class="custom-button btn-animate">View Menu</button></a>
+           <a href="#order"><button class="custom-outline-button btn-animate">Order Now</button></a> 
         </div>
     </div>
 
@@ -228,7 +257,7 @@
                         the true and unadulterated gifts from mother nature. with the true
                         and unadulterated gifts from mother nature.
                     </p>
-                    <button class="custom-button"><a href="./watch.html" target="_blank" class = "a1">Watch Video</a></button>
+                  <a href="./watch.html" target="_blank" class = "a1" id = "order"><button class="custom-button">Watch Video</button></a>
                 </div>
             </div>
         </div>
@@ -254,7 +283,7 @@
                         Plus, you get a 5% discount on every order every time you pay
                         online.
                     </p>
-                    <button class="custom-button">Order Now</button>
+                    <a href="./payment.html" target="_blank"><button class="custom-button">Order Now</button></a>
                     <div class="mt-3">
                         <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
                         <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
@@ -283,9 +312,9 @@
                     <div>
 
                         <!-- Button trigger modal -->
-                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                        <a href="./gift.html" target="_blank"><button type="button" class="custom-button">
                             Redeem Gift
-                        </button>
+                        </button></a>
 
                         <!-- Modal
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -340,7 +369,7 @@
         </div>
     </div>
 
-
+<!-- <footer>
     <div class="footer-section pt-5 pb-5">
         <div class="container">
             <div class="row">
@@ -354,6 +383,49 @@
             </div>
         </div>
     </div>
+</footer> -->
+
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo & Contact Info -->
+      <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png"
+             class="food-munch-logo mb-3" />
+        <p class="mb-1">📧 <strong>Email:</strong> orderfood@foodmunch.com</p>
+        <p class="mb-0">📍 <strong>Address:</strong> 123 Ayur Vigyan Nagar, New Delhi, India</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <h5 class="mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="explore.html" class="text-white text-decoration-none">Explore Menu</a></li>
+          <li><a href="payment.html" class="text-white text-decoration-none">Payment</a></li>
+          <li><a href="redeem.html" class="text-white text-decoration-none">Redeem Voucher</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4 text-center text-md-end">
+        <h5 class="mb-3">Follow Us</h5>
+        <a href="https://www.facebook.com/10000coders/" target="_blank" class="text-white me-3 a3"><i class="bi bi-facebook"></i> Facebook</a><br>
+        <a href="https://www.instagram.com/10000coders/?hl=en" target="_blank" class="text-white me-3 a3"><i class="bi bi-instagram"></i> Instagram</a><br>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <hr class="bg-white">
+        <p class="mb-0">&copy; 2025 Food Munch. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
@@ -362,6 +434,7 @@
 
 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
 </html>

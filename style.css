@@ -15,6 +15,11 @@
     height: 70px;
 }
 
+.menu{
+    color: black;
+    /* background-color:white */
+}
+
 /* small devices */
     .smallContainer{
         display: flex;
@@ -338,6 +343,11 @@
     font-weight: 800;
 }
 
+
+
+.a3{
+    text-decoration: none;
+}
 /* Animations and transitions */
 
 @media screen and (min-width:800px) {
