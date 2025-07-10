@@ -98,7 +98,7 @@
     font-family: "Roboto";
     font-size: 45px;
     font-weight: 300;
-    animation: heading 1.5s ease-in 1;
+
 
 }
 
@@ -107,7 +107,7 @@
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 300;
-    animation: heading 1.5s ease-in 1;
+
 
 }
 
@@ -415,7 +415,7 @@
 
 
 /* Heading */
-@keyframes heading {
+/* @keyframes heading {
 
     0%{
         transform: scale(0);
@@ -424,7 +424,7 @@
         transform: scale(1);
     }
     
-}
+} */
 /* why choose us section cards */
 .wcu-card:hover{
     transform: translateY(-15px);
